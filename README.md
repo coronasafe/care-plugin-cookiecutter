@@ -1,0 +1,2 @@
+# care-plugin-cookiecutter
+Soon™
