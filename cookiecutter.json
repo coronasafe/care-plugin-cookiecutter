@@ -1,0 +1,7 @@
+{
+  "project_name": "care_hello",
+  "plugin_name": "hello",
+  "name": "Care Hello",
+  "description": "A short description of the project",
+  "version": "0.1.0"
+}
