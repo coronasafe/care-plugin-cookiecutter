@@ -10,4 +10,5 @@ This template allows you to create a new plugin for the Care project. Below are 
 
 Run the template using:
 ```bash
-cookiecutter path/to/this/template
+cookiecutter https://github.com/DraKen0009/plugin_cookie.git
+
