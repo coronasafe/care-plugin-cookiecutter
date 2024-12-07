@@ -48,8 +48,8 @@ master_doc = "index"
 
 # General information about the project.
 project = "{{cookiecutter.name}}"
-copyright = "2024, Vignesh Hari"
-author = "Vignesh Hari"
+copyright = "{% now 'utc', '%Y' %}, {{cookiecutter.author}}"
+author = "{{cookiecutter.author}}"
 
 # The version info for the project you're documenting, acts as replacement
 # for |version| and |release|, also used in various other places throughout
@@ -129,7 +129,7 @@ latex_documents = [
         master_doc,
         "{{cookiecutter.plugin_name}}.tex",
         "{{cookiecutter.name}} Documentation",
-        "Vignesh Hari",
+        "{{cookiecutter.author}}",
         "manual",
     ),
 ]

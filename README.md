@@ -8,7 +8,13 @@ This template allows you to create a new plugin for the Care project. Below are 
 - **`description`**: A brief description of the plugin's purpose (e.g., `A Care plugin for managing user data`).
 - **`version`**: The version number of the plugin in `MAJOR.MINOR.PATCH` format (e.g., `0.1.0`).
 
-Run the template using:
+If you don't have cookiecutter installed, run:
 ```bash
-cookiecutter https://github.com/DraKen0009/plugin_cookie.git
+pip install cookiecutter
+```
 
+Run the template using:
+
+```bash
+cookiecutter gh:ohcnetwork/care-plugin-cookiecutter
+```

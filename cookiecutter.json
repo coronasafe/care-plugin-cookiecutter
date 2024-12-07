@@ -1,7 +1,9 @@
 {
-  "project_name": "care_hello",
   "plugin_name": "hello",
+  "project_name": "care_{{ cookiecutter.plugin_name }}",
   "name": "Care Hello",
   "description": "A short description of the project",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "author": "Open Healthcare Network",
+  "github_username": "ohcnetwork"
 }
